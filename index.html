@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons Cdn -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                PraSocial
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for Creators, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+                <div class="profile-photo">
+                    <img src="./images/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Section -->
+    <main>
+        <div class="container">
+            <!-- left side -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <div class="profile-handle">
+                        <h4>PraDev Pranay</h4>
+                        <p class="text-muted">@PrDev</p>
+                    </div>
+                </a>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notifications</h3>
+                        <!-- Notification ToolTip -->
+                        <div class="notification-tooltip">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>John Simran</b> accepted your friend request
+                                    <small class="text-muted">2 days ago</small>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Raju Simba</b> commented on your post
+                                    <small class="text-muted">1 hour ago</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Daniel Dennis</b> and <b>234 others</b> liked your post
+                                    <small class="text-muted">4 seconds ago</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Salkaniket Pande</b> commented on your post you are tagged in
+                                    <small class="text-muted">13 hours ago</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Jeetu bhaiya</b> commented on your post you are tagged in
+                                    <small class="text-muted">10 hours ago</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Ram Seeta bhaiya</b> tagged on your post you are tagged in
+                                    <small class="text-muted">10 hours ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-chart-line"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme-btn">
+                        <span><i class="uil uil-palette"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+                </div>
+
+                <label for="create-post" class="btn btn-primary">
+                    Create Post
+                </label>
+            </div>
+
+            <!-- middle side -->
+            <div class="middle">
+                <!-- Stories section -->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-9.jpg" alt="">
+                        </div>
+                        <p class="name">Qidren Pablo</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-10.jpg" alt="">
+                        </div>
+                        <p class="name">Raj Kumar</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-11.jpg" alt="">
+                        </div>
+                        <p class="name">PraDev Pranay</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-12.jpg" alt="">
+                        </div>
+                        <p class="name">Reema Rao</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-13.jpg" alt="">
+                        </div>
+                        <p class="name">Lasan Pande</p>
+                    </div>
+                </div>
+
+                <!-- Create Post Section -->
+                <form action="" class="create-post">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, PraDev?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <!-- Feeds Section -->
+                <div class="feeds">
+                    <!-- Feed Section individual -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-1.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>James kill</h3>
+                                    <small>Dubai, 12 minutes ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-1.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-11.jpg" alt=""></span>
+                            <span><img src="./images/profile-12.jpg" alt=""></span>
+                            <p>Liked by <b>Milde Patte</b> and <b>2,423 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>John Doe</b> Lorem ipsum dolor sit amet consectetur adipisicing. <span
+                                    class="hashtag">#programmer</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 264 comments
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Ram Rajesh Singh</h3>
+                                    <small>India, 1 seconds ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-2.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-11.jpg" alt=""></span>
+                            <span><img src="./images/profile-12.jpg" alt=""></span>
+                            <p>Liked by <b> Jitesh bindra</b> and <b>423 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Silly Doe</b> Lorem ipsum dolor sit amet consectetur adipisicing. <span
+                                    class="hashtag">#programmer</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 855 comments
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Prakhar gupta</h3>
+                                    <small>Shriram Pange, 4 hours ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-3.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-11.jpg" alt=""></span>
+                            <span><img src="./images/profile-12.jpg" alt=""></span>
+                            <p>Liked by <b>Swagat kishor</b> and <b>439 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Indira singh</b> Lorem ipsum dolor sit amet consectetur adipisicing. <span
+                                    class="hashtag">#programmer</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 102 comments
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Swapni Joshi</h3>
+                                    <small>Pakistan, 10 days ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-4.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-11.jpg" alt=""></span>
+                            <span><img src="./images/profile-12.jpg" alt=""></span>
+                            <p>Liked by <b>Milde Patte</b> and <b>2,423 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>John Doe</b> Lorem ipsum dolor sit amet consectetur adipisicing. <span
+                                    class="hashtag">#programmer</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 264 comments
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>James kill</h3>
+                                    <small>Dubai, 12 minutes ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-5.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-11.jpg" alt=""></span>
+                            <span><img src="./images/profile-12.jpg" alt=""></span>
+                            <p>Liked by <b>Milde Patte</b> and <b>2,423 others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>John Doe</b> Lorem ipsum dolor sit amet consectetur adipisicing. <span
+                                    class="hashtag">#programmer</span></p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            View all 264 comments
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages </h4>
+                        <i class="uil uil-edit"></i>
+                    </div>
+
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search messages" id="message-search">
+                    </div>
+
+                    <!-- Messages Category -->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(5)</h6>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-7.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Jonas Khan</h5>
+                            <p>Just Need Sleep brooo</p>
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-8.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Sam Harriomn</h5>
+                            <p class="text-muted">Work Hard til it hurts</p>
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-9.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Projot phende</h5>
+                            <p>Skip the shit already.</p>
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-10.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Mani Sutre</h5>
+                            <p class="text-muted">Quit acting like fool</p>
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-11.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Your Dad</h5>
+                            <p class="text-muted">Make the shit go your way</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Friend Requests -->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-13.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Sumeet Kapat</h5>
+                                <p class="text-muted">
+                                    8 Mutual Friends
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-14.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Umesh Kapate</h5>
+                                <p class="text-muted">
+                                    1 Mutual Friends
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-15.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Farooq Konde</h5>
+                                <p class="text-muted">
+                                    4 Mutual Friends
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- ======================= THEME CUSTOMIZATION ============================ -->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p>Manage your font size, color and background.</p>
+
+            <!-- Font Sizes -->
+            <div class="font-size">
+                <h4>Font Size</h4>
+
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-sizes">
+                        <span class="font-size-1 active"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- Primary Colors -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!-- Background Colors -->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
